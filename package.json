@@ -1,0 +1,19 @@
+{
+  "name": "algorithm_learning",
+  "version": "1.0.0",
+  "description": "> 算法学习及数据处理等方法",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AgilityJin/algorithm_learning.git"
+  },
+  "author": "Agility",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AgilityJin/algorithm_learning/issues"
+  },
+  "homepage": "https://github.com/AgilityJin/algorithm_learning#readme"
+}
