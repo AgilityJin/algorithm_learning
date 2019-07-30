@@ -2,13 +2,11 @@
   "name": "algorithm_learning",
   "version": "1.0.0",
   "description": "> 算法学习及数据处理等方法",
-  "main": "index.js",
+  "main": "./dist/index.js",
   "scripts": {
     "tsc": "tsc",
-    "dev": "webpack-dev-server --inline --progress --mode=development --config build/webpack.dev.conf.js",
-    "build": "webpack --mode=production --config build/webpack.prod.conf.js",
-    "webpack": "webpack --mode=development --config build/webpack.prod.conf.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "yarn run tsc",
+    "test": "yarn run build && mocha --recursive --require babel-core/register --reporter mochawesome --reporter-options doc"
   },
   "repository": {
     "type": "git",
@@ -21,18 +19,14 @@
   },
   "homepage": "https://github.com/AgilityJin/algorithm_learning#readme",
   "devDependencies": {
-    "babel-loader": "^8.0.6",
-    "clean-webpack-plugin": "^3.0.0",
-    "friendly-errors-webpack-plugin": "^1.7.0",
-    "html-webpack-plugin": "^3.2.0",
-    "lodash": "^4.17.11",
-    "portfinder": "^1.0.20",
-    "ts-loader": "^6.0.4",
-    "typescript": "^3.5.2",
-    "webpack": "^4.35.2",
-    "webpack-cli": "^3.3.5",
-    "webpack-dev-server": "^3.7.2",
-    "webpack-merge": "^4.2.1"
+    "@types/mocha": "^5.2.7",
+    "babel-core": "^6.26.3",
+    "babel-preset-es2015": "^6.24.1",
+    "chai": "^4.2.0",
+    "mocha": "^6.2.0",
+    "mochawesome": "^4.0.1",
+    "tslib": "^1.10.0",
+    "typescript": "^3.5.2"
   },
   "dependencies": {}
 }
