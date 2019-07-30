@@ -1,4 +1,4 @@
-import * as most_string from "@/methods/array/most_string";
+import * as most_string from "./most_string";
 
 // 聚合所有数组方法
 const array = {

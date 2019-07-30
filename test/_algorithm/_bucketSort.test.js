@@ -1,5 +1,5 @@
 import chai from 'chai'
-import { _easeBucketSort } from '../../dist/_algorithm/_easeBucketSort'
+import { _easeBucketSort } from '../../dist/lib/_algorithm/_easeBucketSort'
 
 const expect = chai.expect;
 

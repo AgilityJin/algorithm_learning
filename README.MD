@@ -1,5 +1,12 @@
 # algorithm_learning
+
 > 算法学习及数据处理等方法
 
-## cli
-* npm run build 构建编译后的版本,需要tsc cli支持
+## build
+
+* `npm install` or `yarn install`
+* `npm run build` or `yarn run build`
+
+## test
+
+* `npm run test` or `yarn run test`

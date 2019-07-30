@@ -1,6 +1,7 @@
 node_modules/
 .idea/
 .tmp/
-dist/
+# dist/
 .DS_Store
 yarn-error.log
+mochawesome-report/

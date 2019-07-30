@@ -1,5 +1,5 @@
 import { expect } from 'chai'
-import { cloneDeep } from '../../../dist/methods/object/cloneDeep'
+import { cloneDeep } from '../../../dist/lib/methods/object/cloneDeep'
 
 describe('深拷贝测试', () => {
   it('非object or array异常数据测试', () => {

@@ -12,10 +12,10 @@
     "emitDecoratorMetadata": true,
     "allowSyntheticDefaultImports": true,
     "sourceMap": false,
-    "outDir": "./dist",
+    "outDir": "./lib",
     "allowJs": true,
     "baseUrl": ".",
-    "types": [],
+    "types": [ "node"],
     "paths": {
       "@/*": [
         "src/*"
