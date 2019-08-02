@@ -1,8 +1,12 @@
-import * as most_string from "./most_string";
+import { mostString } from "./most_string";
+import { reverse } from "./reverse";
+import { rotate } from "./rotate";
 
 // 聚合所有数组方法
 const array = {
-  ...most_string,
+  mostString,
+  reverse,
+  rotate,
 }
 
 export default array;

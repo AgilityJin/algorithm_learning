@@ -5,7 +5,7 @@
  * 2. 下标就是当前位置所代表的值,初始均为0
  * 3. 每出现一次当前位 += 1
  * 4. 最后只需要依序从前往后或者从后往前循环遍历打印即可
- * 
+ * 时间复杂度: O(M+N)
  * @version 0.0.1
  * @param {Array} numArr 传入的数据应当是 number[],且必须是正整数 数组
  * @param {Boolean} direction 排序方向控制,默认true正序,false反序

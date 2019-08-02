@@ -1,7 +1,7 @@
 /**
  * @name 深拷贝
  * @version 0.0.1
- * @param souceData 源数据
+ * @param souceData 源数据 array or object
  * @description:
  * 将源对象基础类型数据赋值给另一个对象,引用类型则递归继续赋值,防止循环引用导致死循环
  */
