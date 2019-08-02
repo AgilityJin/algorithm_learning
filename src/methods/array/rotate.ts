@@ -1,8 +1,8 @@
 import { reverse } from './reverse'
 /**
- * 
+ * @name 右移数组方法
  * @param nums 待移动的数组
- * @param moveRight 右移位数
+ * @param moveRight 右移位数 正整数
  * @returns {void} 直接修改原数组
  */
 export const rotate = (nums: number[], moveRight: number) => {
