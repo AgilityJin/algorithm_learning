@@ -25,6 +25,10 @@
 
 * 深拷贝方法: cloneDeep
 
+### class
+
+* 哈希类: HashMap
+
 ### algorithms
 
 * 简单桶排序算法: _easeBucketSort
