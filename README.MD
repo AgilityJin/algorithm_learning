@@ -28,6 +28,7 @@
 ### class
 
 * 哈希类: HashMap
+* 队列类: Queue
 
 ### algorithms
 
